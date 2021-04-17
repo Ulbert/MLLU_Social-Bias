@@ -16,5 +16,5 @@ singularity exec --nv --overlay $SCRATCH/overlay-25GB-500K.ext3:ro /scratch/work
 source /ext3/env.sh
 conda activate
 pip install -r requirements.txt
-python src/crows-pairs.py --input-file ../data/crows_pairs_anonymized.csv --lm_model bert --output-file $SCRATCH/MLLU_model
+python src/crows-pairs.py --input_file data/crows_pairs_anonymized.csv --lm_model bert --output_file $SCRATCH/MLLU_model
 "
