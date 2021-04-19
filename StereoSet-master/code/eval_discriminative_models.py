@@ -245,7 +245,7 @@ class BiasEvaluator():
 
 
 def process_job(batch, model, pretrained_class):
-    input_ids, token_type_ids, sentence_id = batch
+    input_ids, token_type_ids, sentence_id, attention_mask = batch
     outputs = model(input_ids, token_type_ids=token_type_ids)
     if type(outputs) == tuple:
         outputs = outputs[0]
