@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=crows-pairs-bert
+#SBATCH --job-name=glue-bert
 #SBATCH --open-mode=append
 #SBATCH --output=/home/$USER/%j_%x.out
 #SBATCH --error=/home/$USER/%j_%x.err
@@ -16,8 +16,7 @@ export TASK_NAME=mrpc
 singularity exec --nv --overlay $SCRATCH/overlay-25GB-500K.ext3:ro /scratch/work/public/singularity/cuda10.1-cudnn7-devel-ubuntu18.04-20201207.sif /bin/bash -c "
 source /ext3/env.sh
 conda activate
-pip install -r src/requirements.txt
-python run_glue.py \\
+python src/run_glue.py \\
   --model_name_or_path bert-base-uncased \\
   --task_name $TASK_NAME \\
   --do_train \\
