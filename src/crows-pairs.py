@@ -109,8 +109,7 @@ def mask_unigram(data, lm, n=1):
     mask_token = lm["mask_token"]
     uncased = lm["uncased"]
 
-    if torch.cuda.is_available():
-        torch.set_default_tensor_type('torch.cuda.FloatTensor')
+    torch.set_default_tensor_type('torch.cuda.FloatTensor')
 
     sent1, sent2 = data["sent1"], data["sent2"]
 
@@ -199,8 +198,7 @@ def evaluate(args):
         uncased = True
 
     model.eval()
-    if torch.cuda.is_available():
-        model.to('cuda')
+    model.to('cuda')
 
     mask_token = tokenizer.mask_token
     log_softmax = torch.nn.LogSoftmax(dim=0)
