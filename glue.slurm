@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=glue-bert
 #SBATCH --open-mode=append
-#SBATCH --output=/home/$USER/%j_%x.out
-#SBATCH --error=/home/$USER/%j_%x.err
+#SBATCH --output=/home/ma4759/%j_%x.out
+#SBATCH --error=/home/ma4759/%j_%x.err
 #SBATCH --export=ALL
 #SBATCH --nodes=1
 #SBATCH --time=48:00:00
