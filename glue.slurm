@@ -25,5 +25,6 @@ python src/run_glue.py \\
   --per_device_train_batch_size 32 \\
   --learning_rate 2e-5 \\
   --num_train_epochs 3 \\
+  --overwrite_output_dir
   --output_dir /$SCRATCH/glue/$TASK_NAME
 "
