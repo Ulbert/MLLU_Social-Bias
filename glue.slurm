@@ -26,5 +26,4 @@ python src/run_glue.py \\
   --learning_rate 2e-5 \\
   --num_train_epochs 3 \\
   --output_dir /$SCRATCH/glue/$TASK_NAME
-  --overwrite_output_dir
 "
