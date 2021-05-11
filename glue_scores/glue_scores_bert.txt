@@ -1,0 +1,213 @@
+BERT
+----
+
+COLA
+{
+    "epoch": 3.0,
+    "eval_loss": 0.5210844278335571,
+    "eval_matthews_correlation": 0.572739655014278,
+    "eval_mem_cpu_alloc_delta": 2277376,
+    "eval_mem_cpu_peaked_delta": 0,
+    "eval_mem_gpu_alloc_delta": 0,
+    "eval_mem_gpu_peaked_delta": 34656256,
+    "eval_runtime": 3.0945,
+    "eval_samples": 1043,
+    "eval_samples_per_second": 337.049,
+    "init_mem_cpu_alloc_delta": 2013380608,
+    "init_mem_cpu_peaked_delta": 93360128,
+    "init_mem_gpu_alloc_delta": 439072256,
+    "init_mem_gpu_peaked_delta": 0,
+    "train_mem_cpu_alloc_delta": 22515712,
+    "train_mem_cpu_peaked_delta": 5025792,
+    "train_mem_gpu_alloc_delta": 1377520128,
+    "train_mem_gpu_peaked_delta": 3558682624,
+    "train_runtime": 227.583,
+    "train_samples": 8551,
+    "train_samples_per_second": 3.533
+}
+
+MISSING MNLI - TIMEOUT ERROR
+{
+
+}
+
+MRPC
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8284313725490197,
+    "eval_combined_score": 0.8550940646528882,
+    "eval_f1": 0.8817567567567567,
+    "eval_loss": 0.43968725204467773,
+    "eval_mem_cpu_alloc_delta": 2162688,
+    "eval_mem_cpu_peaked_delta": 0,
+    "eval_mem_gpu_alloc_delta": 0,
+    "eval_mem_gpu_peaked_delta": 34643456,
+    "eval_runtime": 1.2082,
+    "eval_samples": 408,
+    "eval_samples_per_second": 337.692,
+    "init_mem_cpu_alloc_delta": 1653899264,
+    "init_mem_cpu_peaked_delta": 110653440,
+    "init_mem_gpu_alloc_delta": 439072256,
+    "init_mem_gpu_peaked_delta": 0,
+    "train_mem_cpu_alloc_delta": 21614592,
+    "train_mem_cpu_peaked_delta": 0,
+    "train_mem_gpu_alloc_delta": 1377560064,
+    "train_mem_gpu_peaked_delta": 3558642688,
+    "train_runtime": 97.4005,
+    "train_samples": 3668,
+    "train_samples_per_second": 3.542
+}
+
+QNLI
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.9132344865458539,
+    "eval_loss": 0.31458088755607605,
+    "eval_mem_cpu_alloc_delta": 1900544,
+    "eval_mem_cpu_peaked_delta": 135168,
+    "eval_mem_gpu_alloc_delta": 0,
+    "eval_mem_gpu_peaked_delta": 34744320,
+    "eval_runtime": 16.0069,
+    "eval_samples": 5463,
+    "eval_samples_per_second": 341.29,
+    "init_mem_cpu_alloc_delta": 2024816640,
+    "init_mem_cpu_peaked_delta": 93626368,
+    "init_mem_gpu_alloc_delta": 439072256,
+    "init_mem_gpu_peaked_delta": 0,
+    "train_mem_cpu_alloc_delta": 24088576,
+    "train_mem_cpu_peaked_delta": 5857280,
+    "train_mem_gpu_alloc_delta": 1377520128,
+    "train_mem_gpu_peaked_delta": 3558682624,
+    "train_runtime": 2808.7077,
+    "train_samples": 104743,
+    "train_samples_per_second": 3.497
+}
+
+QQP
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.9104377937175365,
+    "eval_combined_score": 0.8950833802015125,
+    "eval_f1": 0.8797289666854884,
+    "eval_loss": 0.28227582573890686,
+    "eval_mem_cpu_alloc_delta": 3399680,
+    "eval_mem_cpu_peaked_delta": 643072,
+    "eval_mem_gpu_alloc_delta": 0,
+    "eval_mem_gpu_peaked_delta": 35443200,
+    "eval_runtime": 118.1124,
+    "eval_samples": 40430,
+    "eval_samples_per_second": 342.301,
+    "init_mem_cpu_alloc_delta": 1938046976,
+    "init_mem_cpu_peaked_delta": 93765632,
+    "init_mem_gpu_alloc_delta": 439072256,
+    "init_mem_gpu_peaked_delta": 0,
+    "train_mem_cpu_alloc_delta": 43823104,
+    "train_mem_cpu_peaked_delta": 9957376,
+    "train_mem_gpu_alloc_delta": 1377517056,
+    "train_mem_gpu_peaked_delta": 3558685696,
+    "train_runtime": 9756.4917,
+    "train_samples": 363846,
+    "train_samples_per_second": 3.496
+}
+
+RTE
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.6498194945848376,
+    "eval_loss": 0.6797866821289062,
+    "eval_mem_cpu_alloc_delta": 1699840,
+    "eval_mem_cpu_peaked_delta": 0,
+    "eval_mem_gpu_alloc_delta": 0,
+    "eval_mem_gpu_peaked_delta": 34640896,
+    "eval_runtime": 0.832,
+    "eval_samples": 277,
+    "eval_samples_per_second": 332.942,
+    "init_mem_cpu_alloc_delta": 2044137472,
+    "init_mem_cpu_peaked_delta": 109338624,
+    "init_mem_gpu_alloc_delta": 439072256,
+    "init_mem_gpu_peaked_delta": 0,
+    "train_mem_cpu_alloc_delta": 22274048,
+    "train_mem_cpu_peaked_delta": 0,
+    "train_mem_gpu_alloc_delta": 1377578496,
+    "train_mem_gpu_peaked_delta": 3558624256,
+    "train_runtime": 67.7251,
+    "train_samples": 2490,
+    "train_samples_per_second": 3.455
+}
+
+SST2
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.926605504587156,
+    "eval_loss": 0.31021055579185486,
+    "eval_mem_cpu_alloc_delta": 2215936,
+    "eval_mem_cpu_peaked_delta": 0,
+    "eval_mem_gpu_alloc_delta": 0,
+    "eval_mem_gpu_peaked_delta": 34652160,
+    "eval_runtime": 2.5757,
+    "eval_samples": 872,
+    "eval_samples_per_second": 338.542,
+    "init_mem_cpu_alloc_delta": 2040606720,
+    "init_mem_cpu_peaked_delta": 93626368,
+    "init_mem_gpu_alloc_delta": 439072256,
+    "init_mem_gpu_peaked_delta": 0,
+    "train_mem_cpu_alloc_delta": 23867392,
+    "train_mem_cpu_peaked_delta": 5582848,
+    "train_mem_gpu_alloc_delta": 1377563136,
+    "train_mem_gpu_peaked_delta": 3558639616,
+    "train_runtime": 1838.9067,
+    "train_samples": 67349,
+    "train_samples_per_second": 3.434
+}
+
+STSB
+{
+    "epoch": 3.0,
+    "eval_combined_score": 0.8830419268238809,
+    "eval_loss": 0.5032437443733215,
+    "eval_mem_cpu_alloc_delta": 2949120,
+    "eval_mem_cpu_peaked_delta": 0,
+    "eval_mem_gpu_alloc_delta": 0,
+    "eval_mem_gpu_peaked_delta": 34652672,
+    "eval_pearson": 0.8838706441837122,
+    "eval_runtime": 4.3937,
+    "eval_samples": 1500,
+    "eval_samples_per_second": 341.4,
+    "eval_spearmanr": 0.8822132094640498,
+    "init_mem_cpu_alloc_delta": 2046222336,
+    "init_mem_cpu_peaked_delta": 93691904,
+    "init_mem_gpu_alloc_delta": 439069184,
+    "init_mem_gpu_peaked_delta": 0,
+    "train_mem_cpu_alloc_delta": 22773760,
+    "train_mem_cpu_peaked_delta": 442368,
+    "train_mem_gpu_alloc_delta": 1377553920,
+    "train_mem_gpu_peaked_delta": 3558639616,
+    "train_runtime": 152.1334,
+    "train_samples": 5749,
+    "train_samples_per_second": 3.55
+}
+
+WNLI
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.49295774647887325,
+    "eval_loss": 0.6981492638587952,
+    "eval_mem_cpu_alloc_delta": 1970176,
+    "eval_mem_cpu_peaked_delta": 4096,
+    "eval_mem_gpu_alloc_delta": 0,
+    "eval_mem_gpu_peaked_delta": 34635776,
+    "eval_runtime": 1.8914,
+    "eval_samples": 71,
+    "eval_samples_per_second": 37.538,
+    "init_mem_cpu_alloc_delta": 1658769408,
+    "init_mem_cpu_peaked_delta": 93298688,
+    "init_mem_gpu_alloc_delta": 439072256,
+    "init_mem_gpu_peaked_delta": 0,
+    "train_mem_cpu_alloc_delta": 22261760,
+    "train_mem_cpu_peaked_delta": 0,
+    "train_mem_gpu_alloc_delta": 1377581568,
+    "train_mem_gpu_peaked_delta": 3558621184,
+    "train_runtime": 19.5223,
+    "train_samples": 635,
+    "train_samples_per_second": 3.073
+}
