@@ -282,13 +282,3 @@ def evaluate(args):
     print("Num. neutral:", neutral, round(neutral / N * 100, 2))
     print('=' * 100)
     print()
-
-
-parser = argparse.ArgumentParser()
-parser.add_argument("--input_file", type=str, help="path to input file")
-parser.add_argument("--lm_model", type=str,
-                    help="pretrained LM model to use (options: bert, roberta, scibert-bert, biobert-bert, scibert-roberta, biobert-roberta)")
-parser.add_argument("--output_file", type=str, help="path to output file with sentence scores")
-
-args = parser.parse_args()
-evaluate(args)
